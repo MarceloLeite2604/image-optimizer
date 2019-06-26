@@ -1,0 +1,10 @@
+image-optimizer:
+  max-width: 1920
+  max-height: 1080
+  tiny-png:
+    api-key: 0123456789abcdef
+  encryption:
+    cryptographic-algorythm: DESede
+    feedback-mode: CBC
+    padding-scheme: PKCS5Padding
+    key-environment-variable-name: ENCRYPTION_KEY
